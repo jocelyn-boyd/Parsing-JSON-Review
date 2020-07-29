@@ -1,7 +1,10 @@
 // Parsing Dictionary
 
-// JSON Data
 import Foundation
+
+// ===================================================================
+// JSON data
+//====================================================================
 
 let json = """
 {
@@ -48,4 +51,13 @@ do {
   print("decoding error: \(error)")
 }
 
+/*
+ 2 elements
+  ▿ __lldb_expr_1.Contact
+    - firstName: "John"
+    - lastName: "Appleseed"
+  ▿ __lldb_expr_1.Contact
+    - firstName: "Alex"
+    - lastName: "Paul"
+ */
 //: [Next](@next)
